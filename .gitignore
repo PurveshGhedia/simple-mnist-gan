@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+*.egg
+*.egg-info
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch / GAN generated files
+data/       
+generated_images/
+*.pt                   # Saved PyTorch model files (optional, can ignore if large)
+*.pth                  # Saved PyTorch weights
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
